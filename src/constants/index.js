@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   starbucks,
+  //potech,
   tesla,
   shopify,
   carrent,
@@ -24,6 +25,11 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import potech from "../assets/company/potech.png";
+import sql from "../assets/tech/sql.png";
+import python from "../assets/tech/python.png";
+import cpp from "../assets/tech/cpp.png";
+import java from "../assets/tech/java.png";
 
 export const navLinks = [
   {
@@ -50,16 +56,28 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Penetration Tester",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Backend Developer",
+    icon: backend,
   },
 ];
 
 const technologies = [
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -81,20 +99,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Three JS",
@@ -104,28 +114,19 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Penetration Tester",
+    company_name: "Potech",
+    icon: potech,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Identified security vulnerabilities in web applications through hands-on testing and analysis",
+      "Performed reconnaissance, vulnerability assessments, and exploitation of common flaws, including XSS and SQL injection.",
+      "Enhanced expertise in tools like Burp Suite and automated scanners to streamline testing processes.",
     ],
   },
   {
@@ -135,36 +136,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Successfully completed an in-depth React Native course during the internship, mastering key concepts like component design, state management, and navigation.",
+      "Enhanced problem-solving and development skills through hands-on projects and real-world React Native scenarios provided in the training.",
     ],
   },
 ];

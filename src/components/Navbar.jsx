@@ -20,8 +20,8 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Jad &nbsp;
+          <p className='text-white text-[18px] font-bold cursor-pointer'>
+            Jad 
             <span className='sm:block hidden'>| Developer & Hacker</span>
           </p>
         </Link>
@@ -40,9 +40,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-
-        {/* this will be shown as menu on small devices */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img 
           src={toggle ? close : menu} 
