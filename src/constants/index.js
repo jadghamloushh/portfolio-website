@@ -30,6 +30,7 @@ import sql from "../assets/tech/sql.png";
 import python from "../assets/tech/python.png";
 import cpp from "../assets/tech/cpp.png";
 import java from "../assets/tech/java.png";
+import portfolio from "../assets/portfolio.png";
 
 export const navLinks = [
   {
@@ -167,25 +168,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-application that showcases my skills, experience, and personal projects",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/jadghamloushh/portfolio-website",
   },
   {
     name: "Job IT",
