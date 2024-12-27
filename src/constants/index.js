@@ -31,6 +31,8 @@ import python from "../assets/tech/python.png";
 import cpp from "../assets/tech/cpp.png";
 import java from "../assets/tech/java.png";
 import portfolio from "../assets/portfolio.png";
+import sportify from "../assets/sportify.png";
+import des from "../assets/des.png";
 
 export const navLinks = [
   {
@@ -185,46 +187,48 @@ const projects = [
     source_code_link: "https://github.com/jadghamloushh/portfolio-website",
   },
   {
-    name: "Job IT",
+    name: "Sportify Ecommerce Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that offers a secure platform for users to browse, purchase, and explore a wide range of sports clothing and shoes with seamless shopping and secure checkout.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sportify,
+    source_code_link:
+      "https://github.com/jadghamloushh/sportify-ecommerce-website",
   },
   {
-    name: "Trip Guide",
+    name: "DES Cryptography Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that encrypts and decrypts data using the Data Encryption Standard (DES) algorithm.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: des,
+    source_code_link:
+      "https://github.com/jadghamloushh/des-cryptography-website",
   },
 ];
 
