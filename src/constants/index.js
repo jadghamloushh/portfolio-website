@@ -118,7 +118,7 @@ const technologies = [
 const experiences = [
   {
     title: "Penetration Tester",
-    company_name: "Potech",
+    company_name: "Potech Consulting",
     icon: potech,
     iconBg: "#383E56",
     date: "May 2023 - June 2023",
@@ -129,14 +129,15 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Penetration Tester Intern",
+    company_name: "Potech Consulting",
+    icon: potech,
+    iconBg: "#383E56",
+    date: "June 2025 - August 2025",
     points: [
-      "Successfully completed an in-depth React Native course during the internship, mastering key concepts like component design, state management, and navigation.",
-      "Enhanced problem-solving and development skills through hands-on projects and real-world React Native scenarios provided in the training.",
+      "Conducting Penetration Testing assesments across web applications, Linux and windows machine thus identifying and helping mitigate security vulnerabilities.",
+      "Experience with usage of several tools such as Metasploit. Burpsuite, Nmap, Wireshark and many other.",
+      "Develop python scripts for variable red teaming tasks.",
     ],
   },
 ];
