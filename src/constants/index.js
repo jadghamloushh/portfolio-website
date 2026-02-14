@@ -26,12 +26,15 @@ import {
   threejs,
 } from "../assets";
 import potech from "../assets/company/potech.png";
+import hackerone from "../assets/company/hackerone.png";
+import ey from "../assets/company/ey.png";
 import sql from "../assets/tech/sql.png";
 import python from "../assets/tech/python.png";
 import cpp from "../assets/tech/cpp.png";
 import java from "../assets/tech/java.png";
 import portfolio from "../assets/portfolio.png";
 import sportify from "../assets/sportify.png";
+import secure_backend from "../assets/Screenshot 2026-02-14 192915.png";
 import des from "../assets/des.png";
 
 export const navLinks = [
@@ -51,20 +54,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Penetration Tester",
     icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Bug Bounty Hunter",
+    icon: mobile,
+  },
+  {
+    title: "Web Developer",
+    icon: web,
   },
 ];
 
@@ -117,15 +116,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Penetration Tester",
-    company_name: "Potech Consulting",
-    icon: potech,
+    title: "Technology Risk Consultant - Graduate Program",
+    company_name: "Ernest & Young",
+    icon: ey,
     iconBg: "#383E56",
-    date: "May 2023 - June 2023",
+    date: "January 2026 - Present",
     points: [
-      "Identified security vulnerabilities in web applications through hands-on testing and analysis",
-      "Performed reconnaissance, vulnerability assessments, and exploitation of common flaws, including XSS and SQL injection.",
-      "Enhanced expertise in tools like Burp Suite and automated scanners to streamline testing processes.",
+      "Conduct IT risk assessments for enterprise systems.",
+      "Reviewing IT General Controls across areas such as access management, change management, and IT operations.",
+    ],
+  },
+  {
+    title: "Bug Bounty Hunter",
+    company_name: "Freelance",
+    icon: hackerone,
+    iconBg: "#383E56",
+    date: "June 2025 - Present",
+    points: [
+      "Discovered CVE-2026-21641.",
+      "Reported multiple vulnerabilities via HackerOne and Bugcrowd to major organizations including NASA, AT&T, and Dell.",
+      "Specialized in web application security.",
     ],
   },
   {
@@ -133,11 +143,23 @@ const experiences = [
     company_name: "Potech Consulting",
     icon: potech,
     iconBg: "#383E56",
-    date: "June 2025 - August 2025",
+    date: "May 2025 - July 2025",
     points: [
-      "Conducting Penetration Testing assesments across web applications, Linux and windows machine thus identifying and helping mitigate security vulnerabilities.",
-      "Experience with usage of several tools such as Metasploit. Burpsuite, Nmap, Wireshark and many other.",
+      "Conducting Penetration Testing assesments across web applications, Linux and windows machine.",
+      "Experience with usage of several tools such as Metasploit, Burpsuite, Nmap, Wireshark and many other.",
       "Develop python scripts for variable red teaming tasks.",
+    ],
+  },
+  {
+    title: "Penetration Tester Intern",
+    company_name: "Potech Consulting",
+    icon: potech,
+    iconBg: "#383E56",
+    date: "May 2024 - June 2024",
+    points: [
+      "Identified security vulnerabilities in web applications through hands-on testing and analysis",
+      "Performed reconnaissance, vulnerability assessments, and exploitation of common flaws, including XSS and SQL injection.",
+      "Enhanced expertise in tools like Burp Suite and automated scanners to streamline testing processes.",
     ],
   },
 ];
@@ -170,6 +192,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Secure Backend",
+    description:
+      "This project is a secure full stack project built with Node.js, Express, and PostgreSQL. The goal was to practice backend development while focusing on security concerns that appear in real applications.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: secure_backend,
+    source_code_link: "https://github.com/jadghamloushh/secure-backend",
+  },
   {
     name: "Portfolio Website",
     description:
