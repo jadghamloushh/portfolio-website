@@ -1,4 +1,6 @@
+edit : 
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/abdo/public_html/
+    - export DEPLOYPATH=/home2/abdo/jadghamloush.com/
+    - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -R * $DEPLOYPATH
